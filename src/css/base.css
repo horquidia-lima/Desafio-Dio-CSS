@@ -39,22 +39,31 @@ button {
     outline: none;
 }
 
-#app {
-    text-align: center;
-}
-
 /*---header---*/
 
-header {
+.banner {
     border-bottom: 1px solid #33A8DB;
-    background-image: url("./src/assets/banner.png") ;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.6) 0%, rgba(49, 168, 221, 0) 100%), url("./src/assets/banner.png") no-repeat;
+    background-size: cover;
 }
 
 .banner-content {
     width: 510px;
     margin: 40px auto;
+    text-align: center;
+    -webkit-background-clip: text; 
+}
 
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0.6) 0%, rgba(49, 168, 221, 0) 100%);
+.banner-content .logo {
+    width: 248px;
+    height: 214px;
+    margin: auto;
+}
+
+.banner-content .logo img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
 }
 
 .banner-content h1 {
@@ -83,7 +92,7 @@ header {
     line-height: 1.9rem;
     font-weight: 900;
 
-    border: 1px solid #3BA1CD;
+    border: 2px solid #3BA1CD;
     padding: 1.9rem 4.6rem;
     text-transform: uppercase;
     cursor: pointer;
@@ -103,7 +112,7 @@ main h2 {
 
 #course-content {
     width: 792px;
-
+    text-align: center;
     margin: 11.8rem auto 9rem; 
 }
 
@@ -143,10 +152,12 @@ main h2 {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    background-attachment: fixed;
 
     position: relative;
 
     border-block: 1px solid #33A8DB;
+
 }
 
 #transform-world p {
@@ -193,6 +204,7 @@ main h2 {
 footer {
     background: linear-gradient(180deg, rgba(51, 168, 219, 0) 0%, rgba(51, 168, 219, 0.2) 99.99%, rgba(51, 168, 219, 0.2) 100%);
     padding: 5.9rem 0 3.8rem 0;
+    text-align: center;
 }
 
 footer a {
