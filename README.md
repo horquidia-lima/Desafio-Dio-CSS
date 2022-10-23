@@ -10,10 +10,9 @@
   <a href="#memo-licença">Licença</a>
 </p>
 
-
- ![image](https://user-images.githubusercontent.com/63380921/197416439-56cbc642-f359-414f-92c8-fd08b091de2d.png)
-
-
+<p align="center">
+  <img alt="License" src="https://user-images.githubusercontent.com/63380921/197416439-56cbc642-f359-414f-92c8-fd08b091de2d.png">
+</p>
 
 <br>
 
