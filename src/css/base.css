@@ -167,8 +167,24 @@ main h2 {
 
 #professional-challenges {
     border-bottom: 1px solid #33A8DB;
-    
-    margin: 10px auto;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 7.6rem;
+}
+
+#professional-challenges h2 {
+    width: 60%;
+    text-transform: uppercase;
+}
+
+#professional-challenges p {
+    width: 60%;
+    margin-top: 4rem;
+    margin-bottom: 9.1rem;
 }
 
 
@@ -182,6 +198,7 @@ footer {
 footer a {
     color: #33A8DB;
     font-weight: 700;
+    margin-top: 1rem;
 }
 
 
