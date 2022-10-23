@@ -49,12 +49,14 @@ button {
 
 header {
     border-bottom: 1px solid #33A8DB;
+    background-image: url("./src/assets/banner.png") ;
 }
 
 .banner-content {
     width: 510px;
-
     margin: 40px auto;
+
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.6) 0%, rgba(49, 168, 221, 0) 100%);
 }
 
 .banner-content h1 {
