@@ -62,7 +62,7 @@ header {
     font-weight: 900;
     font-size: 4rem;
     line-height: 4.7rem;
-    
+    text-transform: uppercase;
     
     background: linear-gradient(180deg, #33A8DB 0%, #1472B7 100%);
     -webkit-background-clip: text;
@@ -88,6 +88,53 @@ header {
     text-transform: uppercase;
     cursor: pointer;
 }
+
+/*---main---*/
+
+main h2 {
+    font-size: 3.2rem;
+    line-height: 3.8rem;
+    letter-spacing: 0.19em;
+    font-weight: 700;
+    color: #33A8DB;
+}
+
+/*---main section course-content ---*/
+
+#course-content {
+    width: 792px;
+
+    margin: 11.8rem auto 9rem; 
+}
+
+#course-content p {
+    line-height: 1.9rem;
+    margin-block: 2.4rem;
+}
+
+.modules-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2.4rem;
+}
+
+.module {
+    padding: 1.6rem 10rem;
+    background: #252525;
+    border: 1px solid #33A8DB;
+    box-shadow: inset -2px 6px 4px rgba(0, 0, 0, 0.4);
+    border-radius: 5.7rem;
+
+    width: 70%;
+    font-size: 1.4rem;
+}
+
+.module span {
+    color: #33A8DB;
+}
+
 
 
 
