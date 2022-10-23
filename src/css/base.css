@@ -25,8 +25,6 @@ body {
 
     display: flex;
     place-items: center;
-
-    min-height: 100vh;
 }
 
 a {
@@ -163,6 +161,27 @@ main h2 {
     font-weight: 900;
     text-shadow: 3px 2px 0px #33A8DB;
     text-transform: lowercase;
+}
+
+/*---main section professional-challenges ---*/
+
+#professional-challenges {
+    border-bottom: 1px solid #33A8DB;
+    
+    margin: 10px auto;
+}
+
+
+/*---footer---*/
+
+footer {
+    background: linear-gradient(180deg, rgba(51, 168, 219, 0) 0%, rgba(51, 168, 219, 0.2) 99.99%, rgba(51, 168, 219, 0.2) 100%);
+    padding: 5.9rem 0 3.8rem 0;
+}
+
+footer a {
+    color: #33A8DB;
+    font-weight: 700;
 }
 
 
