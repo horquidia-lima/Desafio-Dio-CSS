@@ -10,9 +10,9 @@
   <a href="#memo-licença">Licença</a>
 </p>
 
-<p align="center">
- ![image](https://user-images.githubusercontent.com/63380921/197416144-5027760b-3d17-4c10-bf7b-4cae118b1879.png)
-</p>
+
+ [image](https://user-images.githubusercontent.com/63380921/197416144-5027760b-3d17-4c10-bf7b-4cae118b1879.png)
+
 
 <br>
 
@@ -30,6 +30,6 @@ O projeto e uma landpage sobre a trilha de CSS da DIO.
 
 ## 🔖 Layout
 
-Você pode visualizar o layout do projeto através [DESSE LINK] (https://www.figma.com/file/3PiokoJj9IhGDnNiWAJbz7/DIO---Desafio-01?node-id=2%3A6). É necessário ter conta no [Figma](https://figma.com) 
+Você pode visualizar o layout do projeto através [DESSE LINK](https://www.figma.com/file/3PiokoJj9IhGDnNiWAJbz7/DIO---Desafio-01?node-id=2%3A6). É necessário ter conta no [Figma](https://figma.com) 
 para acessá-lo.
 
