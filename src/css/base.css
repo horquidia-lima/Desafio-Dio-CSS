@@ -135,6 +135,34 @@ main h2 {
     color: #33A8DB;
 }
 
+/*---main section transform-world ---*/
+
+#transform-world {
+    background-image: url("./src/assets/woman-code.png");
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    position: relative;
+
+    border-block: 1px solid #33A8DB;
+}
+
+#transform-world p {
+    position: absolute;
+    width: 244px;
+    height: 141px;
+    left: 150px;
+    top: 90px;
+
+    font-size: 4rem;
+    line-height: 4.7rem;
+    font-weight: 900;
+    text-shadow: 3px 2px 0px #33A8DB;
+    text-transform: lowercase;
+}
+
 
 
 
